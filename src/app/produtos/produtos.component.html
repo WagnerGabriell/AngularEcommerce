@@ -1,2 +1,25 @@
-<app-navbar>
-<main class="ProdutosMain"></main>
+<app-navbar></app-navbar>
+<main class="ProdutosMain">
+  <!-- <h1>{{data[0].dataCadastro}}</h1> -->
+   <div class="modelProd">
+    <div class="ContainerImgInfo">
+        <img class="img" src="/public/img/image 3.png" alt="Imagem do produto">
+        <div class="infoProd">
+          <div class="conteinercontait">
+            <div class="infoProdText">
+              <h2>Nome do Produto</h2>
+              <p>R$ 10,00</p>
+            </div>
+            <div class="btns">
+              <button (click)="testeevento(1)" class="btnComprar">Compre Agora</button>
+              <button (click)="testeevento(2)" class="btnComprar">Adicionar ao carrinho</button>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="descricaoProd">
+      <h2>Descrição do Produto</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elitLorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+    </div>
+   </div>
+</main>
